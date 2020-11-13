@@ -11,7 +11,7 @@ class IntervalTest {
         });
     }
 
-    @org.junit.jupiter.api.Test
+    @org.junit.jupiter.api.Test //zasto na svakom testu ovo pokazuje??
     void toStringTest() {
         Interval i = new Interval(1.1, 2.5, true, false);
         assertEquals("[1.1,2.5)", i.toString());
